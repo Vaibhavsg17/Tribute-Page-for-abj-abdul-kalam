@@ -1,0 +1,132 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #ffffff;
+}
+
+.topnav {
+    font-family: 'Roboto Slab', serif;
+    overflow: hidden;
+    color: #330E5E;
+    background-color: #ffae00;
+    padding: 0px 10px;
+    text-align: center;
+}
+
+.topnav h2 {
+    font-size: 24px;
+    margin-top: 14px;
+    margin-bottom: 10px;
+}
+
+.topnav p {
+    margin-top: 5px;
+    font-size: 18px;
+    color: #f2f2f2;
+    float: center;
+    text-decoration: none;
+}
+
+.topnav a {
+    color:#ff0080;
+}
+
+.intro_abj {   
+     color: #330E5E;
+     font-family: 'Vollkorn', serif;
+     font-size: 32px;
+     padding: 30px 0px 0px 0px;
+}
+
+.intro_abjimg {   
+     border: 5px solid #150704;
+     padding: 2px;
+     width: 450px;
+     height: 300px;
+  }
+
+.intro_abj h2 {
+     margin-top: 5px;
+     margin-bottom: 5px;
+  }
+
+.intro_abj p {
+     font-size: 24px;
+     margin-top: 5px;
+     margin-bottom: 28px;
+  }
+
+.abj_info {
+     font-family: 'Roboto Slab', serif;
+     font-size: 16px;
+     color:#FE344C;
+     background-color:#fee4b4;
+     width: auto;
+     padding: 5px 20px;
+     margin: 10px  50px 10px 50px;
+     border-radius: 10px;
+     text-align: justify;
+}
+
+
+.abj_info h2 {
+     font-size: 28px;
+     color:#BA246C;
+     text-align: center;
+}
+
+.img_abj_info {
+    border: 5px solid #150704; 
+    margin: 20px; 
+    width: 350px; 
+    height: 200px;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .topnav h2 {
+    font-size:20px; 
+  }
+
+  .topnav p {
+    font-size:14px; 
+  }
+
+
+  .intro_abj {   
+     color: #330E5E;
+     font-family: 'Vollkorn', serif;
+     font-size: 24px;
+     padding: 30px 0px 0px 0px;
+}
+
+  .intro_abjimg {   
+     border: 5px solid #150704;
+     padding: 2px;
+     width: 250px;
+     height: 190px;
+    }
+
+  .intro_abj p {
+    font-size: 20px;
+  }
+
+  .abj_info {
+      font-family: 'Roboto Slab', serif;
+      font-size: 16px;
+      color:#FE344C;
+      background-color:#fee4b4;
+      width: auto;
+      padding: 5px 20px;
+      margin: 10px;
+      border-radius: 10px;
+      text-align: justify;
+    }
+
+    .img_abj_info {
+      border: 5px solid #150704; 
+      margin: 20px; 
+      width: 210px; 
+      height: 190px;
+  }
+}
