@@ -1,0 +1,108 @@
+    @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&display=swap');
+    body {
+        margin: 0 auto;
+        background-color: #eeece8;
+    }
+    
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-family: 'Playfair Display', serif;
+    }
+    
+    .navbar {
+        background-color: #eaddbf;
+        position: sticky;
+        margin-bottom: -55px;
+        z-index: 1;
+    }
+    
+    .navbar-brand {
+        font-size: 18px;
+    }
+    
+    .hero-section {
+        background-color: #FFF6E6;
+        /* background-image: url(/img/Desktop\ -\ 1\ \(1\).png); */
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: top;
+        height: auto;
+        padding: 200px 0px 150px 0px !important;
+        margin: 0px;
+    }
+    
+    .sub-title {
+        font-size: 28px;
+    }
+    
+    .img-border {
+        border: 2px solid #DAA520;
+        padding: 10px;
+    }
+    
+    .qoute-section {
+        background-color: #1d0c0c;
+        color: #DAA520;
+        padding: 70px 0px;
+        height: 50vh;
+    }
+    
+    #mini-wiki {
+        padding: 90px 0px 80px 0px;
+    }
+    
+    .scientist-abj-img {
+        height: 400px;
+        width: 500px;
+    }
+    
+    #read-more {
+        background-color: #1d0c0c;
+        color: #DAA520;
+        padding: 70px 0px;
+    }
+    
+    .card-footer {
+        padding: 20px 0px;
+    }
+    
+    #Credits a {
+        color: #1d0c0c;
+    }
+    
+    @media only screen and (max-width:600px) {
+        .navbar-brand {
+            font-size: 16px;
+        }
+        .hero-section {
+            font-size: 20px;
+            background-color: #eaddbf;
+            background-image: url(/img/mbil-img.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: top;
+            padding: 200px 0px 120px 0px !important;
+            margin: 0px;
+            height: auto;
+        }
+        .jumbotron h1 {
+            font-size: 42px;
+        }
+        .sub-title {
+            font-size: 25px;
+        }
+        .lead {
+            font-size: 18px;
+        }
+        .scientist-abj-img {
+            height: 300px;
+            width: 100%;
+        }
+        #about h1 {
+            font-size: 40px;
+        }
+    }
